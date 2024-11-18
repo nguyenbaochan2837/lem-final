@@ -1,0 +1,35 @@
+.input-field {
+    height: 40px; /* Hoặc chiều cao mà bạn muốn */
+  }
+  label {
+    color: #1c1b1f; /* Màu chữ cho nhãn */
+}
+  .input-field {
+    height: 40px; /* Hoặc chiều cao mà bạn muốn */
+    border: 1px solid black !important; /* Đặt viền màu đen và dày hơn */
+    border-radius: 4px; /* Để góc của ô nhập trông mềm mại */
+    padding: 0.5rem; /* Để tăng khoảng cách bên trong */
+}
+
+/* Tùy chọn: Nếu bạn muốn thay đổi viền khi ô nhập được focus */
+.input-field:focus {
+  border-color: black; /* Hoặc chọn màu khác mà bạn muốn */
+  outline: none; /* Không hiển thị outline */
+}
+
+
+label {
+    color: #1c1b1f; /* Màu chữ cho nhãn */
+}
+/* Đảm bảo hình ảnh hiển thị trên các màn hình lớn hơn */
+@media (max-width: 768px) {
+  /* Ẩn hình ảnh khi màn hình nhỏ hơn 768px */
+  .register-image {
+    display: none;
+  }
+
+  /* Tăng kích thước của form để chiếm toàn bộ màn hình */
+  .register-form {
+    width: 100%;
+  }
+}
